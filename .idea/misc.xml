@@ -3,10 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_cycling_24.xml" value="0.174" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.32708333333333334" />
         <entry key="app/src/main/res/layout/constrain_layout_1.xml" value="0.34322916666666664" />
         <entry key="app/src/main/res/layout/constraint_layout_3.xml" value="0.28072916666666664" />
         <entry key="app/src/main/res/layout/contraint_layout_2.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.37552083333333336" />
+        <entry key="app/src/main/res/layout/fragment_cycling.xml" value="0.190625" />
+        <entry key="app/src/main/res/layout/fragment_running.xml" value="0.37447916666666664" />
+        <entry key="app/src/main/res/menu/bottom_nav.xml" value="0.28072916666666664" />
       </map>
     </option>
   </component>

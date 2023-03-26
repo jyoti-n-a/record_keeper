@@ -6,18 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <FrameLayout
+    <androidx.fragment.app.FragmentContainerView
         android:id="@+id/frame_content"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:name="com.learning.recordkeeper.RunningFragment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@id/bottom_nav"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
+    <Button
+        android:layout_margin="12dp"
+        app:layout_constraintBottom_toTopOf="@id/bottom_nav"
+        android:id="@+id/button_running"
+        android:text="Running"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:layout_margin="12dp"
+        app:layout_constraintBottom_toTopOf="@id/bottom_nav"
+        app:layout_constraintEnd_toEndOf="@id/bottom_nav"
+        android:id="@+id/button_cycling"
+        android:text="Cycling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="0dp"
         android:id="@+id/bottom_nav"
+        app:menu="@menu/bottom_nav"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
